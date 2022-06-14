@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.Compression;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using CRUDWebApiWithSwagger.Models;
 using Microsoft.AspNetCore.Mvc;
 using WebApiWithSwagger.Models;
