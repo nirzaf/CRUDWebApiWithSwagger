@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using CRUDWebApiWithSwagger.Models;
 using Microsoft.AspNetCore.Mvc;
 using WebApiWithSwagger.Models;
@@ -13,7 +12,7 @@ namespace CRUDWebApiWithSwagger.Controllers
         private readonly CrudSampleContext _crudSampleContext;
         public ValuesController(CrudSampleContext crudSampleContext)
         {
-            this._crudSampleContext = crudSampleContext;
+            _crudSampleContext = crudSampleContext;
         }
 
         // GET api/values
@@ -37,7 +36,7 @@ namespace CRUDWebApiWithSwagger.Controllers
         public void Post([FromBody] ValueSamples createSample)
         {
             _crudSampleContext.ValueSamples.Add(createSample);
-            _crudSampleContext.SaveChanges();
+            _crudSampleContext.SaveChangesAsync();
         }
 
         // PUT api/values/5

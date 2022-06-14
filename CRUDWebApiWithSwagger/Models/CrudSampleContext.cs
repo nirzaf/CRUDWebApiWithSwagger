@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using WebApiWithSwagger.Models;
+﻿using WebApiWithSwagger.Models;
 
 namespace CRUDWebApiWithSwagger.Models
 {
