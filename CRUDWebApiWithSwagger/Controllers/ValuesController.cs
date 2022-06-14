@@ -4,7 +4,7 @@ using CRUDWebApiWithSwagger.Models;
 using Microsoft.AspNetCore.Mvc;
 using WebApiWithSwagger.Models;
 
-namespace WebApiWithSwagger.Controllers
+namespace CRUDWebApiWithSwagger.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
